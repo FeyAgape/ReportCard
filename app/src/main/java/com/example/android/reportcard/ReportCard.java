@@ -25,7 +25,6 @@ public class ReportCard {
     public String getSchoolName() {
         return schoolName;
     }
-
     public void setSchoolName(String school) {
         schoolName = school;
     }
@@ -34,7 +33,6 @@ public class ReportCard {
     public String getStudentName() {
         return studentName;
     }
-
     public void setStudentName(String name) {
         studentName = name;
     }
@@ -43,7 +41,6 @@ public class ReportCard {
     public int getGradeMathematics() {
         return gradeMathematics;
     }
-
     public void setGradeMathematics(int gradeM) {
         gradeMathematics = gradeM;
     }
@@ -52,7 +49,6 @@ public class ReportCard {
     public int getGradeEnglish() {
         return gradeEnglish;
     }
-
     public void setGradeEnglish(int gradeC) {
         gradeEnglish = gradeC;
     }
@@ -61,12 +57,11 @@ public class ReportCard {
     public int getGradeScience() {
         return gradeScience;
     }
-
     public void setGradeScience(int gradeS) {
         gradeScience = gradeS;
     }
 
-
+    // Return a representation of the report card rather than an empty string
     @Override
     public String toString() {
         //The toString() method gives a String representing the data stored in the report card.
