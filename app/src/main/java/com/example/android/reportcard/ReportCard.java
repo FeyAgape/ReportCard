@@ -11,7 +11,7 @@ public class ReportCard {
     private int gradeEnglish;
     private int gradeScience;
 
-    public ReportCard(String school, String name, int gradeM, int gradeE, int gradeS, int gradeL) {
+    public ReportCard(String school, String name, int gradeM, int gradeE, int gradeS) {
         schoolName = school;
         studentName = name;
         gradeMathematics = gradeM;
@@ -71,7 +71,7 @@ public class ReportCard {
         return "School Name: " + schoolName + "\n" +
                 "Student Name: " + studentName + "\n" +
                 "Mathematics: " + gradeMathematics + "\n" +
-                "English: " + gradeEnglish+ "\n" +
+                "English: " + gradeEnglish + "\n" +
                 "Science: " + gradeScience;
     }
 }
