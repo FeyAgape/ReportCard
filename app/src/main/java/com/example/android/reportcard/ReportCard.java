@@ -11,7 +11,9 @@ public class ReportCard {
     private int gradeEnglish;
     private int gradeScience;
 
+
     public ReportCard(String school, String name, int gradeM, int gradeE, int gradeS) {
+        //Initialize the variables here!
         schoolName = school;
         studentName = name;
         gradeMathematics = gradeM;
@@ -67,6 +69,7 @@ public class ReportCard {
 
     @Override
     public String toString() {
+        //The toString() method gives a String representing the data stored in the report card.
 
         return "School Name: " + schoolName + "\n" +
                 "Student Name: " + studentName + "\n" +
